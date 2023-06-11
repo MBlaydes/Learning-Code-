@@ -1,6 +1,9 @@
 # get pyramid height
 while True:
-    height = int(input("How high do you wanna go? "))
+    try:
+        height = int(input("How high do you wanna go? "))
+    except ValueError:
+        continue
     if height > 0 and height < 9:
         break
 
