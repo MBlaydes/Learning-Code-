@@ -10,20 +10,20 @@ sentences = 0
 # count letters, sentences and words
 for i in text:
     if i.isalpha():
-        letters+=1
+        letters += 1
     elif i == " ":
-         words +=1
-    elif i == '.', '?', '!')
-    sentences +=1
+        words += 1
+    elif i == '.' or i == '?' or i == '!':
+        sentences += 1
 
 
 # run readability formula
 r = 0.0588 * (letters / words * 100) - 0.296 * (sentences / words * 100) - 15.8
 
 # print results
-if index < 1:
+if r < 1:
     print("Before Grade 1")
-elif index >= 16:
-    print("Grade 16+ ")
+elif r >= 16:
+    print("Grade 16+")
 else:
-    print("Grade ", round(index))
+    print("Grade", round(r))
