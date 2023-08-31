@@ -1,0 +1,27 @@
+//use an array
+let gelato = ["pistachio", "hazelnut", "coffee", "chocolate", "vanilla", "dulce"]
+
+//loop and console.log
+for (let i = 0; i < gelato.length; i ++){
+  console.log(gelato[i])
+}
+
+//use method
+//function swap () {
+  //let i[0] = i[length - 1]
+  //i[2] = i[length - 2]
+//}
+
+//swap()
+
+//console.log(gelato)
+
+//shift and unshift
+gelato.shift()
+console.log(gelato)
+
+gelato.unshift("tiramisu", "pistachio")
+console.log(gelato)
+
+//concantenate 
+console.log("They have all my favourite flavours, especially " + gelato[1] + "!")
