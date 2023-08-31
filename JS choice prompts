@@ -1,0 +1,10 @@
+// use let, functions, if else, comparison operators, or logical operators combining multiple in one operation, add one or more return statements
+
+const choice = prompt("What should I choose on Saturday - an extra shift at work or a bike ride?");
+  if (choice == "extra shift" || choice == "shift" || choice == "work" || choice == "extra shift at work") {
+    console.log("Fair enough!");                
+  } else if (choice == "bike ride" || choice == "cycle ride" || choice == "bike") {
+    console.log("Woohoo!");
+  } else {
+    console.log("Hmmm, try again");
+  }
