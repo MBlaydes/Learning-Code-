@@ -1,0 +1,24 @@
+// define consts
+const answer1 = prompt("What's your favourite treat?")
+
+// use alert and interpolation
+alert(`Are you suuuuuure it's ${answer1}? Is that your faaaavourite?`)
+
+const answer2 = prompt("What's your FAVOURITE treat?")
+
+// use concatenation
+alert("Alright, next time you come over I will have " + answer1 + " and " + answer2 + " for you.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
