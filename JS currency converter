@@ -1,0 +1,16 @@
+// first currency
+const usd = 5
+
+// set exchange rate
+const usd2phl = 20.3
+ 
+// conversion
+const conversion = (usd * usd2phl)
+
+// print converted result
+console.log (conversion + "PHL")
+
+
+
+
+
